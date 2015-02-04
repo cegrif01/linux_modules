@@ -1,0 +1,1 @@
+cmd_/home/charles/workspace/module_tutorial/src/hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-12-generic/scripts/module-common.lds --build-id  -o /home/charles/workspace/module_tutorial/src/hello.ko /home/charles/workspace/module_tutorial/src/hello.o /home/charles/workspace/module_tutorial/src/hello.mod.o
